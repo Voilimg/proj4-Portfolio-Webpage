@@ -1,0 +1,79 @@
+body {
+    background-color: #ffe4c4;
+  }
+  
+  header{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: circle;
+  }
+  
+  hr {
+    width: 100%;
+  }
+  
+  #main-doc {
+    margin: 0 300px;
+    float: right;
+  }
+  
+  #code1,
+  #code2,
+  #code3,
+  #code4,
+  #code5,
+  #code6 {
+      background-color: lightgrey;
+      padding: 5px;
+      width: 60%;
+      margin-left: 0px;
+  }
+  
+  #navbar {
+    float: left;
+    position: fixed;
+    border-right: 2px solid black;
+    width: 260px;
+    margin: 0;
+  }
+  
+  ul.nav-L {
+      list-style-type: none;
+      border-bottom: 2px solid black;
+      text-align: center;
+      height: 100%;
+      overflow: auto;
+  }
+  
+  .nav-link{
+    color: black;
+    text-decoration: none;
+    padding: 30px 17px;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+  
+    nav a {
+      float: right;
+      width: 20%;
+      margin: 0 0 0 5%;
+      padding: 25px 0;
+      margin-bottom: 0;
+    }
+  
+  
